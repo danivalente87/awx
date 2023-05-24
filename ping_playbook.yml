@@ -5,4 +5,4 @@
       register: result
 
     - debug: var=hostvars[item].result
-      with_items: "{{ groups['nexus'] }}"
+      
